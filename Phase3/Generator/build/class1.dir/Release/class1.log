@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/perei/Desktop/Project3/Generator/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/perei/Desktop/Project3/Generator/build/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(121): warning C4101: 'z': unreferenced local variable
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(121): warning C4101: 'y': unreferenced local variable
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(121): warning C4101: 'x': unreferenced local variable
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1074): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1335): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1336): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1339): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1344): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\perei\Desktop\Project3\Generator\main.cpp(1345): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  class1.vcxproj -> C:\Users\perei\Desktop\Project3\Generator\build\Release\class1.exe

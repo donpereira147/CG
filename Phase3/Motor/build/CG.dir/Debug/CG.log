@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\perei\Desktop\Project\Motor\main.cpp(638): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+C:\Users\perei\Desktop\Project\Motor\main.cpp(638): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
+  CG.vcxproj -> C:\Users\perei\Desktop\Project\Motor\build\Debug\CG.exe

@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+stdafx.cpp(5): fatal error C1854: cannot overwrite information formed during creation of the precompiled header in object file: 'c:\users\perei\desktop\project\generator\release\stdafx.obj'

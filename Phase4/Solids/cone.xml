@@ -1,0 +1,10 @@
+<scene>
+	<lights>
+		<light type="POINT" posY=4 posX=1 ambR=0 ambG=0 ambB=0 difR=1 difG=1 difB=1/>
+	</lights>
+	<group>
+		<models>
+			<model file="cone.3d" texture="oil.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+</scene>

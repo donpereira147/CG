@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/perei/Desktop/Project/Motor/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/perei/Desktop/Project/Motor/build/CMakeFiles/generate.stamp is up-to-date.
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  main.cpp
+  Generating Code...
+  CG.vcxproj -> C:\Users\perei\Desktop\Project\Motor\build\RelWithDebInfo\CG.exe

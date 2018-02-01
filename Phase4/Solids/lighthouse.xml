@@ -1,0 +1,156 @@
+<scene>
+	<lights>
+		<light type="SPOTLIGHT" posX=0 posY=7 posZ=0 dirX=15 dirY=0 dirZ=0 angle=20 exp=10 ambR=0.3 ambG=0.3 ambB=0.3 difR=1 difG=1 difB=1/>
+	</lights>
+	<camera>
+		<position alpha=0 beta=45 radius=30/>
+	</camera>
+	<group>loch ness
+		<translate time=10>
+			<point X=-25 Y=-2 Z=0/>
+			<point X=-25 Y=-1.5 Z=4/>
+			<point X=-25 Y=-2 Z=8/>
+			<point X=-25 Y=-1.5 Z=12/>
+			<point X=-25 Y=-2 Z=8/>
+			<point X=-25 Y=-1.5 Z=4/>
+			<point X=-25 Y=-2 Z=0/>
+			<point X=-25 Y=-1.5 Z=-4/>
+		</translate>
+		<group>
+			<rotate angle=90 axisZ=90/>
+			<models>
+				<model file="comet.3d" texture="lochness.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>wally
+		<translate time=10>
+			<point X=-10 Y=-1 Z=0/>
+			<point X=-10 Y=-0.5 Z=1/>
+			<point X=-10 Y=-1 Z=2/>
+			<point X=-10 Y=-0.5 Z=3/>
+			<point X=-10 Y=-1 Z=2/>
+			<point X=-10 Y=-0.5 Z=1/>
+			<point X=-10 Y=-1 Z=0/>
+			<point X=-10 Y=-0.5 Z=0/>
+		</translate>
+		<models>
+			<model file="comet.3d" texture="wally.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+		<group>
+			<translate X=20/>
+			<scale X=2 Z=2/>
+			<models>
+				<model file="floor.3d" texture="sand.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=-20/>
+			<scale X=2 Z=2/>
+			<models>
+				<model file="floor.3d" texture="ocean.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<models>
+				<model file="lighthouse.3d" texture="lighthouse.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=5.5/>
+			<models>
+				<model file="balcony.3d" texture="floor.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=6/>
+			<models>
+				<model file="house.3d" texture="window.jpg" emiR=1 emiG=1 emiB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=6.5/>
+			<models>
+				<model file="top.3d" texture="rooftop.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=10 Y=0.75/>
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box1.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=10 Y=0.75 Z=15/>
+			<rotate angle=45 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=7.5 Y=0.75 Z=-12/>
+			<rotate angle=20 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box3.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=9.5 Y=0.75 Z=-12/>
+			<rotate angle=80 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box1.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=5.5 Y=0.75 Z=-10/>
+			<rotate angle=80 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box1.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=10 Y=2/>
+			<rotate angle=45 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box1.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=8.5 Y=0.75 Z=10/>
+			<rotate angle=20 axisY=1 />
+			<scale X=0.25 Y=0.25 Z=0.25/>
+			<models>
+				<model file="boxlighthouse.3d" texture="box3.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=27.5 Y=2.5 Z=0/>
+			<scale X=1.5 Y=1.5 Z=1.5 />
+			<rotate angle=310 axisZ=1 />
+			<models>
+				<model file="guardasol.3d" texture="guardasol.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=25 Y=0 Z=0/>
+			<rotate angle=30 axisZ=1 />
+			<scale Y=2 />
+			<models>
+				<model file="stick.3d" texture="box1.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate X=22.5 Y=0.1 Z=0/>
+			<scale Z=2.5 />
+			<models>
+				<model file="towel.3d" texture="towel.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+</scene>

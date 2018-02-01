@@ -1,0 +1,13 @@
+<scene>
+	<lights>
+		<light type="POINT" posX=15 posY=15 posZ=15 ambR=0 ambG=0 ambB=0 difR=1 difG=1 difB=1/>
+	</lights>
+	<camera>
+		<position alpha= beta=45 radius=40/>
+	</camera>
+	<group>
+		<models>
+			<model file="box.3d" texture="box3.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+</scene>

@@ -1,0 +1,3 @@
+C:/Users/perei/Desktop/Project4/Motor/build/CMakeFiles/CG.dir
+C:/Users/perei/Desktop/Project4/Motor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/perei/Desktop/Project4/Motor/build/CMakeFiles/ZERO_CHECK.dir

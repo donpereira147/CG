@@ -1,0 +1,1155 @@
+<scene>
+	<camera>
+		<position alpha=0 beta=22 radius=560/>
+	</camera>
+	<group> sun
+		<group>
+			<rotate time=100 axisY=1 />
+			<colour R=1.0 G=0.843 B=0 />
+			<scale X=20 Y=20 Z=20 />
+			<models>
+				<model file="sun.3d"/>
+			</models>
+		</group>
+		<group> mercury
+			<translate time=20 X=65 >
+				<point X=-19.038059 Y=0 Z=-45.961941 />
+				<point X=-40.125587 Y=0 Z=-60.052177 />
+				<point X=-65.000008 Y=0 Z=-65.000000 />
+				<point X=-89.874420 Y=0 Z=-60.052166 />
+				<point X=-110.961945 Y=0 Z=-45.961933 />
+				<point X=-125.052185 Y=0 Z=-24.874403 />
+				<point X=-130.000000 Y=0 Z=0.000001 />
+				<point X=-125.052162 Y=0 Z=24.874434 />
+				<point X=-110.961929 Y=0 Z=45.961956 />
+				<point X=-89.874420 Y=0 Z=60.052170 />
+				<point X=-65.000000 Y=0 Z=65.000000 />
+				<point X=-40.125576 Y=0 Z=60.052166 />
+				<point X=-19.038059 Y=0 Z=45.961941 />
+				<point X=-4.947834 Y=0 Z=24.874422 />
+				<point X=0.000000 Y=0 Z=-0.000003 />
+				<point X=-4.947834 Y=0 Z=-24.874428 />
+			</translate>
+			<group>
+				<rotate angle=28 axisX=1 />
+				<group>
+					<rotate time=2 axisY=1 />
+					<colour R=0.118 G=0.565 B=1 />
+					<scale X=0.382 Y=0.382 Z=0.382 />
+					<models>
+						<model file="mercury.3d"/>
+					</models>
+				</group>
+			</group>
+		</group>
+		<group> venus
+			<translate time=4 X=75 >
+				<point X=-21.966991 Y=0 Z=53.033009 />
+				<point X=-46.298740 Y=0 Z=69.290962 />
+				<point X=-75.000000 Y=0 Z=75.000000 />
+				<point X=-103.701256 Y=0 Z=69.290970 />
+				<point X=-128.032990 Y=0 Z=53.033024 />
+				<point X=-144.290955 Y=0 Z=28.701271 />
+				<point X=-150.000000 Y=0 Z=0.000001 />
+				<point X=-144.290985 Y=0 Z=-28.701235 />
+				<point X=-128.033020 Y=0 Z=-53.032997 />
+				<point X=-103.701256 Y=0 Z=-69.290962 />
+				<point X=-75.000008 Y=0 Z=-75.000000 />
+				<point X=-46.298752 Y=0 Z=-69.290970 />
+				<point X=-21.966991 Y=0 Z=-53.033009 />
+				<point X=-5.709038 Y=0 Z=-28.701263 />
+				<point X=0.000000 Y=0 Z=-0.000003 />
+				<point X=-5.709038 Y=0 Z=28.701258 />
+			</translate>
+			<group>
+				<rotate angle=14 axisX=1 />
+				<group>
+					<rotate time=3 axisY=1 />
+					<colour R=1 G=0.271 B=0 />
+					<scale X=0.95 Y=0.95 Z=0.95 />
+					<models>
+						<model file="venus.3d" />
+					</models>
+				</group>
+			</group>
+		</group>
+		<group> earth
+			<translate time=50 X=85>
+				<point X= -85.000000 Y= 0 Z =85.000000 />
+				<point X= -52.471905 Y= 0 Z =78.529755 />
+				<point X= -24.895924 Y= 0 Z =60.104076 />
+				<point X= -6.470245 Y= 0 Z =32.528091 />
+				<point X= 0.000000 Y= 0 Z =-0.000004 />
+				<point X= -6.470245 Y= 0 Z =-32.528099 />
+				<point X= -24.895924 Y= 0 Z =-60.104076 />
+				<point X= -52.471920 Y= 0 Z =-78.529770 />
+				<point X= -85.000008 Y= 0 Z =-85.000000 />
+				<point X= -117.528091 Y= 0 Z =-78.529755 />
+				<point X= -145.104080 Y= 0 Z =-60.104065 />
+				<point X= -163.529770 Y= 0 Z =-32.528065 />
+				<point X= -170.000000 Y= 0 Z =0.000001 />
+				<point X= -163.529755 Y= 0 Z =32.528107 />
+				<point X= -145.104050 Y= 0 Z =60.104095 />
+				<point X= -117.528091 Y= 0 Z =78.529762 />
+			</translate>
+			<group>
+				<rotate angle=45 axisX=1/>
+				<group>
+					<rotate time=10 axisY=1 />
+					<colour R=0 G=0 B=1 />
+					<models>
+						<model file="earth.3d"/>
+					</models>
+					<group> moon
+						<translate X=5/>
+						<scale X=0.273 Y=0.273 Z=0.273 />
+						<colour R=0.439 G=0.502 B=0.565 />
+						<models>
+							<model file="moon.3d" />
+						</models>
+					</group>
+				</group>
+			</group>
+		</group>
+		<group>
+			<translate time=60 X=100 > mars
+				<point X=-100.000000 Y=0 Z=100.000000 />
+				<point X=-61.731655 Y=0 Z=92.387947 />
+				<point X=-29.289322 Y=0 Z=70.710678 />
+				<point X=-7.612053 Y=0 Z=38.268341 />
+				<point X=0.000000 Y=0 Z=-0.000004 />
+				<point X=-7.612053 Y=0 Z=-38.268353 />
+				<point X=-29.289322 Y=0 Z=-70.710678 />
+				<point X=-61.731674 Y=0 Z=-92.387962 />
+				<point X=-100.000008 Y=0 Z=-100.000000 />
+				<point X=-138.268341 Y=0 Z=-92.387947 />
+				<point X=-170.710693 Y=0 Z=-70.710663 />
+				<point X=-192.387970 Y=0 Z=-38.268314 />
+				<point X=-200.000000 Y=0 Z=0.000001 />
+				<point X=-192.387939 Y=0 Z=38.268360 />
+				<point X=-170.710663 Y=0 Z=70.710701 />
+				<point X=-138.268341 Y=0 Z=92.387955 />
+			</translate>
+			<group>
+				<rotate angle=14 axisX=1 />
+				<group>
+					<rotate time=5 axisY=1 />
+					<colour R=0.545 G=0 B=0 />
+					<scale X=0.53 Y=0.53 Z=0.53 />
+					<models>
+						<model file="mars.3d"/>
+					</models>
+				</group>
+			</group>
+		</group>
+		
+		<group> jupiter
+			<translate time=10 X=168 >
+				<point X=-49.206062 Y=0 Z=-118.793938 />
+				<point X=-103.709213 Y=0 Z=-155.211777 />
+				<point X=-168.000015 Y=0 Z=-168.000000 />
+				<point X=-232.290817 Y=0 Z=-155.211761 />
+				<point X=-286.793945 Y=0 Z=-118.793915 />
+				<point X=-323.211792 Y=0 Z=-64.290764 />
+				<point X=-336.000000 Y=0 Z=0.000002 />
+				<point X=-323.211731 Y=0 Z=64.290848 />
+				<point X=-286.793884 Y=0 Z=118.793976 />
+				<point X=-232.290817 Y=0 Z=155.211761 />
+				<point X=-168.000000 Y=0 Z=168.000000 />
+				<point X=-103.709183 Y=0 Z=155.211761 />
+				<point X=-49.206062 Y=0 Z=118.793938 />
+				<point X=-12.788239 Y=0 Z=64.290817 />
+				<point X=0.000000 Y=0 Z=-0.000007 />
+				<point X=-12.788239 Y=0 Z=-64.290833 />
+			</translate>
+			<group>
+				<rotate angle=25 axisX=1 />
+				<group>
+					<rotate time=50 axisY=1 />
+					<colour R=0.824 G=0.412 B=0.118 />
+					<scale X=11.22 Y=11.22 Z=11.22 />
+					<models>
+						<model file="jupiter.3d"/>
+					</models>
+					<group>
+						<translate X=-2.4 Y=-1.3 Z=2 />
+						<colour R=0.941 G=0.902 B=0.549 />
+						<scale X=0.0255 Y=0.0255 Z=0.0255 />
+						<models>
+							<model file="moon.3d" />
+						</models>
+					</group>
+					<group>
+						<translate X=1.8 Y=-2.5 Z=1.8/>
+						<colour R=1 G=0.627 B=0.478 />
+						<scale X=0.0638 Y=0.0638 Z=0.0638 />
+						<models>
+							<model file="moon.3d" />
+						</models>
+					</group>
+					<group>
+						<translate X=2.8 Y=-1 Z=-1.5/>
+						<scale X=0.0368 Y=0.0368 Z=0.0368 />
+						<colour R=0.373 G=0.62 B=0.637 />
+						<models>
+							<model file="moon.3d" />
+						</models>
+					</group>
+					<group>
+						<translate X=2 Y=2 Z=-2/>
+						<scale X=0.0337 Y=0.0337 Z=0.0337 />
+						<colour R=0.529 G=0.808 B=0.922 />
+						<models>
+							<model file="moon.3d" />
+						</models>
+					</group>
+				</group>
+			</group>
+		</group>
+		<group>saturn
+			<translate time=12 X=263 > 
+				<point X=-263.000000 Y=0 Z=263.000000 />
+				<point X=-162.354248 Y=0 Z=242.980316 />
+				<point X=-77.030914 Y=0 Z=185.969086 />
+				<point X=-20.019684 Y=0 Z=100.645744 />
+				<point X=0.000000 Y=0 Z=-0.000011 />
+				<point X=-20.019684 Y=0 Z=-100.645767 />
+				<point X=-77.030914 Y=0 Z=-185.969086 />
+				<point X=-162.354309 Y=0 Z=-242.980347 />
+				<point X=-263.000031 Y=0 Z=-263.000000 />
+				<point X=-363.645752 Y=0 Z=-242.980316 />
+				<point X=-448.969116 Y=0 Z=-185.969055 />
+				<point X=-505.980347 Y=0 Z=-100.645660 />
+				<point X=-526.000000 Y=0 Z=0.000003 />
+				<point X=-505.980286 Y=0 Z=100.645790 />
+				<point X=-448.969025 Y=0 Z=185.969147 />
+				<point X=-363.645752 Y=0 Z=242.980331 />
+			</translate>
+			<group>
+				<rotate angle=14 axisX=1 />
+				<group>
+					<rotate time=40 axisY=1 />
+					<colour R=0.957 G=0.643 B=0.376 />
+					<scale X=9.138 Y=9.138 Z=9.138 />
+					<models>
+						<model file="saturn.3d"/>
+					</models>
+					<group> saturn's ring
+						<scale X=1.3 Y=1.07 Z=1.07 />
+						<rotate angle=30 axisX=1 />
+						<colour R=0.941 G=0.902 B=0.549 />
+						<models>
+							<model file="ring.3d" />
+						</models>
+					</group>
+			</group>
+		</group>
+		</group>
+		<group> uranus
+			<translate time=15 X=340 >
+				<point X=-25.880981 Y=0 Z=130.112366 />			
+				<point X=0.000000 Y=0 Z=-0.000015 />			
+				<point X=-25.880981 Y=0 Z=-130.112396 />		
+				<point X=-99.583694 Y=0 Z=-240.416306 />		
+				<point X=-209.887680 Y=0 Z=-314.119080 />		
+				<point X=-340.000031 Y=0 Z=-340.000000 />		
+				<point X=-470.112366 Y=0 Z=-314.119019 />		
+				<point X=-580.416321 Y=0 Z=-240.416260 />		
+				<point X=-654.119080 Y=0 Z=-130.112259 />		
+				<point X=-680.000000 Y=0 Z=0.000004 />		
+				<point X=-654.119019 Y=0 Z=130.112427 />		
+				<point X=-580.416199 Y=0 Z=240.416382 />
+				<point X=-470.112366 Y=0 Z=314.119049 />
+				<point X=-340.000000 Y=0 Z=340.000000 />
+				<point X=-209.887619 Y=0 Z=314.119019 />
+				<point X=-99.583694 Y=0 Z=240.416306 />	
+			</translate>
+			<group>
+				<rotate angle=15 axisX=1 />
+				<group>
+					<rotate time=20 axisY=1 />
+					<colour R=0.753 G=0.753 B=0.753 />
+					<scale X=3.684 Y=3.684 Z=3.684 />
+					<models>
+						<model file="uranus.3d" />
+					</models>
+				</group>
+			</group>
+		</group>
+		<group> neptune
+			<translate time=16 X=390 >
+				<point X=-390.000000 Y=0 Z=390.000000 />
+				<point X=-240.753448 Y=0 Z=360.313019 />
+				<point X=-114.228363 Y=0 Z=275.771637 />
+				<point X=-29.686981 Y=0 Z=149.246536 />
+				<point X=0.000000 Y=0 Z=-0.000017 />
+				<point X=-29.686981 Y=0 Z=-149.246567 />
+				<point X=-114.228363 Y=0 Z=-275.771637 />
+				<point X=-240.753525 Y=0 Z=-360.313049 />
+				<point X=-390.000031 Y=0 Z=-390.000000 />
+				<point X=-539.246521 Y=0 Z=-360.313019 />
+				<point X=-665.771729 Y=0 Z=-275.771606 />
+				<point X=-750.313110 Y=0 Z=-149.246414 />
+				<point X=-780.000000 Y=0 Z=0.000005 />
+				<point X=-750.312988 Y=0 Z=149.246613 />
+				<point X=-665.771545 Y=0 Z=275.771729 />
+				<point X=-539.246521 Y=0 Z=360.313019 />
+			</translate>
+			<group>
+				<rotate angle=17 axisX=1 />
+				<group>
+					<rotate time=25 axisY=1 />
+					<colour R=0.275 G=0.510 B=0.706 />
+					<scale X=3.566 Y=3.566 Z=3.566 />
+					<models>
+						<model file="neptune.3d" />
+					</models>
+				</group>
+			</group>
+		</group>
+		<group> pluto
+			<translate time=15 X=415 >
+				<point X=-256.186462 Y=0 Z=-383.410034 />
+				<point X=-415.000031 Y=0 Z=-415.000000 />
+				<point X=-573.813599 Y=0 Z=-383.410004 />
+				<point X=-708.449341 Y=0 Z=-293.449249 />
+				<point X=-798.410034 Y=0 Z=-158.813492 />
+				<point X=-830.000000 Y=0 Z=0.000005 />
+				<point X=-798.409973 Y=0 Z=158.813690 />
+				<point X=-708.449219 Y=0 Z=293.449402 />
+				<point X=-573.813599 Y=0 Z=383.410034 />
+				<point X=-415.000000 Y=0 Z=415.000000 />
+				<point X=-256.186371 Y=0 Z=383.410004 />
+				<point X=-121.550690 Y=0 Z=293.449310 />
+				<point X=-31.589996 Y=0 Z=158.813629 />
+				<point X=0.000000 Y=0 Z=-0.000018 />
+				<point X=-31.589996 Y=0 Z=-158.813660 />
+				<point X=-121.550690 Y=0 Z=-293.449310 />
+			</translate>
+			<group>
+				<rotate angle=24 axisX=1 />
+				<group>
+					<rotate time=3 axisY=1 />
+					<colour R=1 G=0.894 B=0.882 />
+					<scale X=0.178 Y=0.178 Z=0.178 />
+					<models>
+						<model file="pluto.3d" />
+					</models>
+				</group>
+			</group>
+		</group>
+		<group> comet
+			<orientation FLAG=0 />
+			<normal upY=1/>
+			<translate time=16 >
+				<point X=275.771637 Y=0 Z=-275.771637 />
+				<point X=149.246475 Y=0 Z=-360.313049 />
+				<point X=-0.000034 Y=0 Z=-390.000000 />
+				<point X=-149.246536 Y=0 Z=-360.313019 />
+				<point X=-275.771698 Y=0 Z=-275.771606 />
+				<point X=-360.313080 Y=0 Z=-149.246414 />
+				<point X=-390.000000 Y=0 Z=0.000005 />
+				<point X=-360.312988 Y=0 Z=149.246613 />
+				<point X=-275.771545 Y=0 Z=275.771729 />
+				<point X=-149.246536 Y=0 Z=360.313019 />
+				<point X=0.000000 Y=0 Z=390.000000 />
+				<point X=149.246552 Y=0 Z=360.313019 />
+				<point X=275.771637 Y=0 Z=275.771637 />
+				<point X=360.313019 Y=0 Z=149.246536 />
+				<point X=390.000000 Y=0 Z=-0.000017 />
+				<point X=360.313019 Y=0 Z=-149.246567 />
+			</translate>
+			<group>
+				<colour R=0.686 G=0.933 B=0.933 />
+				<scale X=4 Y=4 Z=4 />
+				<models>
+					<model file="comet.3d" />
+				</models>
+			</group>
+		</group>
+		<group>
+			<colour R=1 G=1 B=1 />
+			<points FLAG=0/>
+			<models>
+				<model file="orbitMercury.3d" /> mercury
+			</models>
+		</group>
+		<group>
+			<colour R=1 G=1 B=1 />
+			<points FLAG=0/>
+			<models>
+				<model file="orbitVenus.3d" /> venus
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitEarth.3d" /> earth
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitMars.3d" /> mars
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitJupiter.3d" /> mars
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitSaturn.3d" /> mars
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitUranus.3d" /> mars
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitNeptune.3d" /> mars
+			</models>
+		</group>
+		<group>
+			<points FLAG=0/>
+			<models>
+				<model file="orbitPluto.3d" /> mars
+			</models>
+		</group>
+		<group> asteroid
+			<colour R=0.52 G=0.37 B=0.26  />
+			<translate X=110 />
+			<models>
+				<model file="asteroid.3d" />
+			</models>
+		</group>
+		<group> asteroid
+			<colour R=0.52 G=0.37 B=0.26  />
+			<translate X=55.42 Z=-98.3 />
+			<models>
+				<model file="asteroid.3d" />
+			</models>
+		</group>
+		<group> asteroid
+			<colour R=0.52 G=0.37 B=0.26  />
+			<translate X=-80.2 Z=77.23/>
+			<models>
+				<model file="asteroid.3d" />
+			</models>
+		</group>
+		<group> asteroid
+			<colour R=0.52 G=0.37 B=0.26  />
+			<translate X=-50.2 Z=97.23/>
+			<models>
+				<model file="asteroid.3d" />
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=106.006660 Z=-0.594581 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=49.210758 Z=-101.937057 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=99.070282 Z=36.152485 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-87.648026 Z=-62.064922 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=99.586845 Z=-39.478500 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=106.559158 Z=33.326569 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-26.119272 Z=108.497849 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-68.277863 Z=-91.014534 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=63.130356 Z=92.430107 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=86.458870 Z=-75.228973 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=54.095951 Z=-90.152222 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-88.058281 Z=72.037804 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-18.483749 Z=-105.500046 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-79.392700 Z=71.235992 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=56.418396 Z=91.597130 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=41.227531 Z=103.665123 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=31.679323 Z=-101.857590 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=110.101006 Z=13.703342 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-63.041718 Z=89.618217 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-6.421354 Z=-106.011490 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-31.160183 Z=106.454803 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=67.373901 Z=-86.447647 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-103.046005 Z=22.554865 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-96.354439 Z=58.555092 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=100.563339 Z=-35.467545 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=97.781219 Z=39.731499 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-51.051903 Z=96.574326 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=112.222847 Z=-23.359701 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-11.494747 Z=-107.895393 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=45.409184 Z=-95.225578 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-89.091209 Z=-66.801636 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-67.684341 Z=-83.232048 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-34.912498 Z=-106.259277 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-89.869423 Z=-70.505867 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-42.764973 Z=98.402130 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-83.796860 Z=-75.872032 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=72.103981 Z=78.425407 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=53.461895 Z=-96.189407 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-22.356091 Z=-104.657364 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=68.514572 Z=-82.557503 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=82.655670 Z=75.869041 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=80.686859 Z=-77.097160 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-104.107513 Z=-18.935041 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-53.688274 Z=91.148354 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-114.043541 Z=11.956264 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-105.797188 Z=-2.805314 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-96.953697 Z=-43.742233 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-94.640984 Z=-62.409489 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=93.655884 Z=64.436119 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-82.208961 Z=-68.940475 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-8.575996 Z=-111.731194 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-7.314609 Z=-113.541756 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-105.850487 Z=-36.013748 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-89.329056 Z=61.737251 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-92.274307 Z=62.732487 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=16.608994 Z=-109.575592 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=10.539082 Z=114.179855 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=96.744095 Z=-56.815788 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=72.737022 Z=88.695869 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-35.170521 Z=105.037392 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-1.109434 Z=-112.339714 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=95.850655 Z=-60.654007 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=60.963776 Z=-90.838753 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-74.480461 Z=-75.324234 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-18.735216 Z=-110.548203 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=61.453777 Z=96.877945 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=8.311179 Z=109.798347 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=24.894032 Z=106.730446 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=112.368401 Z=2.796304 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=90.847504 Z=64.004120 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-6.820115 Z=-107.146820 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-109.762314 Z=-22.979321 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=29.814510 Z=103.698654 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=59.442841 Z=-89.051422 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-28.242140 Z=-104.821365 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-13.251580 Z=107.607643 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-63.913006 Z=-84.687599 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-88.666512 Z=-72.209625 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=101.579216 Z=42.368176 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=91.975006 Z=-53.470848 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-60.665489 Z=-97.630867 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-109.618515 Z=19.991657 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-22.286261 Z=108.235535 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-8.454107 Z=-106.658333 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-19.364969 Z=110.095070 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-111.961189 Z=-20.918411 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=15.652827 Z=-104.211273 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=81.401917 Z=66.801163 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-21.388250 Z=111.541153 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-95.746941 Z=46.114944 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-82.517082 Z=-76.960678 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=10.720983 Z=112.382172 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-67.927872 Z=-84.354477 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-9.952788 Z=114.544304 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-35.359867 Z=-104.967361 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=11.904753 Z=110.836082 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-54.312668 Z=93.022392 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=70.185005 Z=-88.052498 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=44.028107 Z=95.443268 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+		<group>
+			<colour R=0.52 G=0.37 B=0.26/>
+			<translate X=-85.532219 Z=-65.579620 />
+			<models>
+				<model file="asteroid.3d"/>
+			</models>
+		</group>
+	</group>
+</scene>

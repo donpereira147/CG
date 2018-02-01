@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\perei\Desktop\Project\Generator\main.cpp(1582): warning C4101: 'vc': unreferenced local variable
+C:\Users\perei\Desktop\Project\Generator\main.cpp(1582): warning C4101: 'vb': unreferenced local variable
+C:\Users\perei\Desktop\Project\Generator\main.cpp(1582): warning C4101: 'va': unreferenced local variable
+C:\Users\perei\Desktop\Project\Generator\main.cpp(1582): warning C4101: 'vd': unreferenced local variable
+  class1.vcxproj -> C:\Users\perei\Desktop\Project\Generator\build\Debug\class1.exe

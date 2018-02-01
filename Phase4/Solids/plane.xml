@@ -1,0 +1,13 @@
+<scene>
+	<lights>
+		<light type="POINT" posX=13 posY=13 posZ=13 ambR=0 ambG=0 ambB=0 difR=1 difG=1 difB=1/>
+	</lights>
+	<camera>
+		<position alpha=20 beta=90 radius=20/>
+	</camera>
+	<group>
+		<models>
+			<model file="plane.3d" ambR=1 ambG=0.078 ambB=0.576 difR=1 difG=0.078 difB=0.576/>
+		</models>
+	</group>
+</scene>

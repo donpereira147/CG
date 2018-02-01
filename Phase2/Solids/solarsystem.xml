@@ -1,0 +1,165 @@
+<scene>
+	<group> sun
+		<translate X=-200 />
+		<group>
+			<colour R=1.0 G=0.843 B=0 />
+			<scale X=20 Y=20 Z=20 />
+			<models>
+				<model file="sun.3d" />
+			</models>
+		</group>
+		<group> mercury
+			<translate X=65 />
+			<colour R=0.118 G=0.565 B=1 />
+			<scale X=0.382 Y=0.382 Z=0.382 />
+			<models>
+				<model file="mercury.3d" />
+			</models>
+		</group>
+		<group> venus
+			<translate X=75 />
+			<colour R=1 G=0.271 B=0 />
+			<scale X=0.95 Y=0.95 Z=0.95 />
+			<models>
+				<model file="venus.3d" />
+			</models>
+		</group>
+		<group> earth
+			<earth_radius R=3 />
+			<translate X=85 />
+			<colour R=0 G=0.5 B=0 />
+			<models>
+				<model file="earth.3d" />
+			</models>
+			<group> moon
+				<translate X=5 Y=1 />
+				<scale X=0.273 Y=0.273 Z=0.273 />
+				<colour R=0.439 G=0.502 B=0.565 />
+				<models>
+					<model file="moon.3d" />
+				</models>
+			</group>
+		</group>
+		<group>
+			<translate X=100 /> mars
+			<colour R=0.545 G=0 B=0 />
+			<scale X=0.53 Y=0.53 Z=0.53 />
+			<models>
+				<model file="mars.3d" />
+			</models>
+		</group>
+		<group> jupiter
+			<translate X=160 /> 
+			<colour R=0.824 G=0.412 B=0.118 />
+			<scale X=11.22 Y=11.22 Z=11.22 />
+			<models>
+				<model file="jupiter.3d" />
+			</models>
+			<group>
+				<translate X=3.4 Y=-1.3 Z=2 />
+				<colour R=0.941 G=0.902 B=0.549 />
+				<scale X=0.0255 Y=0.0255 Z=0.0255 />
+				<models>
+					<model file="moon.3d" />
+				</models>
+			</group>
+			<group>
+				<translate X=2 Y=3 Z=2/>
+				<colour R=1 G=0.627 B=0.478 />
+				<scale X=0.0638 Y=0.0638 Z=0.0638 />
+				<models>
+					<model file="moon.3d" />
+				</models>
+			</group>
+			<group>
+				<translate X=3.2 Y=-1 Z=-1.5/>
+				<scale X=0.0368 Y=0.0368 Z=0.0368 />
+				<colour R=0.373 G=0.62 B=0.637 />
+				<models>
+					<model file="moon.3d" />
+				</models>
+			</group>
+			<group>
+				<translate X=2.5 Y=2 Z=-3/>
+				<scale X=0.0337 Y=0.0337 Z=0.0337 />
+				<colour R=0.529 G=0.808 B=0.922 />
+				<models>
+					<model file="moon.3d" />
+				</models>
+			</group>
+		</group>
+		<group>
+			<translate X=260 /> saturn
+			<colour R=0.957 G=0.643 B=0.376 />
+			<scale X=9.138 Y=9.138 Z=9.138 />
+			<models>
+				<model file="saturn.3d" />
+			</models>
+			<group> saturn's ring
+				<scale X=1.3 Y=1.07 Z=1.07 />
+				<rotate angle=30 axisX=1 />
+				<colour R=0.941 G=0.902 B=0.549 />
+				<models>
+					<model file="ring.3d" />
+				</models>
+			</group>
+		</group>
+		<group> uranus
+			<translate X=340 />
+			<colour R=0.753 G=0.753 B=0.753 />
+			<scale X=3.684 Y=3.684 Z=3.684 />
+			<models>
+				<model file="uranus.3d" />
+			</models>
+		</group>
+		<group> neptune
+			<translate X=390 />
+			<colour R=0.275 G=0.510 B=0.706 />
+			<scale X=3.566 Y=3.566 Z=3.566 />
+			<models>
+				<model file="neptune.3d" />
+			</models>
+		</group>
+		<group> pluto
+			<translate X=415 />
+			<colour R=1 G=0.894 B=0.882 />
+			<scale X=0.178 Y=0.178 Z=0.178 />
+			<models>
+				<model file="pluto.3d" />
+			</models>
+		</group>
+		<group>
+			<orbit radius=65 /> mercury
+		</group>
+		<group>
+			<orbit radius= 75/> venus
+		</group>
+		<group>
+			<orbit radius= 85/> earth
+		</group>
+		<group>
+			<orbit radius= 100/> mars
+		</group>
+		<group>
+			<orbit radius= 160/> jupiter
+		</group>
+		<group>
+			<orbit radius= 260/> saturn
+		</group>
+		<group>
+			<orbit radius= 340/> uranus
+		</group>
+		<group>
+			<orbit radius= 390/> neptune
+		</group>
+		<group>
+			<orbit radius= 415/> pluto
+		</group>
+		<group> asteroid
+			<colour R=0.52 G=0.37 B=0.26  />
+			<models>
+				<model file="asteroid.3d" />
+			</models>
+		</group>
+	</group>
+</scene> 

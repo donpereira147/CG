@@ -1,0 +1,279 @@
+<scene>
+	<lights>
+		<light type="DIRECTIONAL" posX=20 posY=15 posZ=0 ambR=0 ambG=0 ambB=0 difR=1 difG=1 difB=1/>
+	</lights>
+	<camera>
+		<position alpha=90 beta=45 radius=10/>
+	</camera>
+	<group>
+		<translate X=5 Y=2 Z=5/>
+		<models>
+			<model file="pole.3d" texture="metal.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate X=-5 Y=2 Z=5/>
+		<models>
+			<model file="pole.3d" texture="metal.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>	
+	<group>
+		<translate X=5 Y=2 Z=-5/>
+		<models>
+			<model file="pole.3d" texture="metal.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate X=-5 Y=2 Z=-5/>
+		<models>
+			<model file="pole.3d" texture="metal.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<rotate angle=90 axisY=1/>
+		<translate Z=0.85 X=4.7/>
+		<group>
+			<translate Y=1.2 X=0.8/>
+			<models>
+				<model file="crossbar.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.6/>
+			<models>
+				<model file="post.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.6 X=1.6/>
+			<models>
+				<model file="post.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate angle=90 axisY=1/>
+		<translate Z=0.85 X=-4.7/>
+		<group>
+			<translate Y=1.2 X=0.8/>
+			<models>
+				<model file="crossbar.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.6/>
+			<models>
+				<model file="post.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.6 X=1.6/>
+			<models>
+				<model file="post.3d"  ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate angle=180 axisY=1/>
+		<models>
+			<model file="plane.3d" texture="field.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<rotate angle=90 axisX=1/>
+		<translate Y=0.625 Z=-5/>
+		<scale Y=0.125/>
+			<models>
+				<model file="plane.3d" texture="crowd.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+	</group>
+	<group>
+			<translate Y=0.625 X=-5/>
+			<rotate angle=90 axisX=1/>
+			<scale Y=0.125/>
+			<group>
+				<rotate angle=90 axisZ=1/>
+				<models>
+					<model file="plane.3d" texture="crowd.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+				</models>
+			</group>
+	</group>
+	<group>
+			<translate Y=0.625 X=5/>
+			<rotate angle=90 axisX=1/>
+			<scale Y=0.125/>
+			<group>
+				<rotate angle=90 axisZ=1/>
+				<models>
+					<model file="plane.3d" texture="crowd.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+				</models>
+			</group>
+	</group>
+	<group>
+		<rotate angle=90 axisX=1/>
+		<translate Y=0.625 Z=5/>
+		<scale Y=0.125/>
+			<models>
+				<model file="plane.3d" texture="crowd.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+	</group>
+	<group>
+		<scale X=0.5 Y=0.5 Z=0.5/>
+		<translate X=-1 Z=1 Y=0.125/>
+		<rotate angle=180 axisY=1/>
+		<group>
+			<translate time=3 X=0.4 Y=-0.06>
+				<point X=0.2 Z=0/>
+				<point X=2.6 Z=0.33/>
+				<point X=5 Z=0.66/>
+				<point X=7.4 Z=1/>
+			</translate>
+			<models>
+				<model file="ball.3d" texture="football.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1 />
+			</models>
+		</group>
+		<group>
+			<group>
+				<translate Y=0.2 X=0.12/>
+				<rotate time=10 rotationAngle=90 axisZ=1/>
+				<group>
+					<scale Y=1.1/>
+				<models>
+					<model file="leg.3d" texture="leg.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+				</models>
+			</group>
+			</group>
+		</group>
+		<group>
+		<translate Z=0.3/>
+		<group>
+			<models>
+				<model file="leg.3d" texture="leg.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<translate Y=0.7 Z=0.15/>
+		<group>
+			<scale Z=1.2/>
+			<models>
+				<model file="torso.3d" texture="torso.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<translate Y=0.7 Z=0.6/>
+		<models>
+			<model file="arm.3d" texture="arm.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			<model file="shoulder.3d" texture="torso.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate Y=1.0599 Z=0.6/>
+		<models>
+			<model file="shoulder.3d" texture="torso.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate Y=0.7 Z=-0.26/>
+		<models>
+			<model file="arm.3d" texture="arm.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate Y=1.0599 Z=-0.26/>
+		<models>
+			<model file="shoulder.3d" texture="torso.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<translate Y=1.35 Z=0.17/>
+		<rotate angle=270 axisY=1/>
+		<scale X=1.1 Y=1.1 Z=1.1/>
+		<models>
+			<model file="ball.3d" texture="eder.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+		<group>
+			<translate Z=0.2/>
+			<models>
+				<model file="manbun.3d"/>
+			</models>
+		</group>
+	</group>
+</group>
+<group>Lloris
+	<group>
+		<scale X=0.45 Y=0.45 Z=0.45/>
+		<translate X=-4.5 Z=-0.5 Y=0.125/>
+		<group>
+			<translate time=5>
+				<point Z=0/>
+				<point Z=0.5/>
+				<point Z=1/>
+				<point Z=1.5/>
+			</translate>
+		<group>
+			<models>
+				<model file="leg.3d" texture="leg2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+		<translate Z=0.3/>
+		<group>
+			<models>
+				<model file="leg.3d" texture="leg2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<translate Y=0.7 Z=0.15/>
+		<models>
+			<model file="torso.3d" texture="torso2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+	<group>
+		<rotate time=5 axisZ=1/>
+		<translate Y=1.2 Z=0.6/>
+		<group>
+			
+			<models>
+				<model file="arm.3d" texture="arm2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+				<model file="shoulder.3d" texture="torso2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.3599/>
+			<models>
+				<model file="shoulder.3d" texture="torso2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate time=5 axisZ=1/>
+		<translate Y=1.2 Z=-0.26/>
+		<group>
+			
+			<models>
+				<model file="arm.3d" texture="arm2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+				<model file="shoulder.3d" texture="torso2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+		<group>
+			<translate Y=0.3599/>
+			<models>
+				<model file="shoulder.3d" texture="torso2.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<translate Y=1.35 Z=0.17/>
+		<rotate angle=270 axisY=1/>
+		<scale X=1.1 Y=1.1 Z=1.1/>
+		<models>
+			<model file="ball.3d" texture="lloris.jpg" ambR=1 ambG=1 ambB=1 difR=1 difG=1 difB=1/>
+		</models>
+	</group>
+</group>
+</group>
+</group>
+</scene>
